@@ -1,0 +1,115 @@
+
+.titu{
+    text-align: center;
+    color:darkblue;
+}
+main {
+    display: flex;
+    text-align: center;
+    font-family: initial;
+    
+} 
+
+.input-texto {
+    margin-top: 60px;
+    margin-left: 150px;
+    padding: 70px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 150%;
+    border-radius: 20px;
+    border-color: black;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #000000a4;
+    transition: .3s ease all;
+}
+.input-texto:hover{
+    background: #ccc;
+}
+.recomendacion{
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 150%;
+}
+.mensaje {
+    position: relative;
+    margin-top: 60px;
+    margin-left: 100px;
+    background-image: url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 18px;
+    background-size: 300px;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 30px;
+    line-height: 150%;
+    border-radius: 20px;
+    border-color: black;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 10px #000000a4;
+    transition: .3s ease all;
+
+}
+.mensaje:hover{
+    background: #ccc;
+}
+
+.copiar {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 250px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 270px;
+    padding: 5px;
+}
+
+
+.encriptar {
+    background-color: darkblue;
+    color:white;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 150%;
+    border-radius: 10px;
+    border-color: black;
+    transition: .3s ease all;
+}
+.encriptar:hover{
+    background: #ccc;
+}
+.desencriptar {
+    margin-left: 30px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 150%;
+    border-radius: 10px;
+    border-color: black;
+    transition: .3s ease all;
+}
+.desencriptar:hover{
+    background: #ccc;
+}
+.pie{
+   
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(#FEFEFE, #888888);
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 150%;
+    color: darkblue;
+}

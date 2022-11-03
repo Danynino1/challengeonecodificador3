@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/x-icon"  href="img/peque.jpg " >
+ </head>
+ <body>
+    <header>
+        <img src="img/Vector.png" alt="Logo alura - inicial a minuscula">
+        <img src="img/ora+alura.jpg" alt="logo oracle + alura">
+        <h1 class="titu"> Challenge_Encriptador </h1>
+        <img src="img/colombia.webp" width="100%" height="50px" alt="Bandera de Colombia">
+    </header>
+    <main>
+        <section>
+
+            <textarea class="input-texto" cols="20" rows="5" placeholder="Ingrese el texto aqui."></textarea>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+            <h6 class="recomendacion">*Utilice solo letras minúsculas y sin acentos.</h6>
+        </section>        
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="18" rows="8"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <footer>
+        <div class="pie">
+         <strong> Realizado por </br> Daniel Julian Niño Leguizamon </br>
+          © 2022 </strong>
+        </div>
+      </footer>
+
+    
+    <script src="script.js"></script>
+    
+ </body>
+ </html>
